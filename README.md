@@ -10,7 +10,7 @@ node index.js
 
 ## Authentication & Environment
 
-The server needs a Github `user_session` cookie, which you can snoop from your browser.  It expects this to be in a `SESSION` environment variable.  Additionally, the server defaults to port 5000, but that can be configured with the `PORT` environment variable.
+The server needs a Github `user_session` cookie, which you can snoop from your browser.  It expects this to be in a `SESSION` environment variable.  Additionally, the server defaults to port 5200, but that can be configured with the `PORT` environment variable.
 
 Note that this project uses [dotenv](https://www.npmjs.com/package/dotenv), so you can store your environment variables in a `.env` file rather than defining them directly in your environment.
 
